@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#000"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sayhitoiot.minhabarbearia.Activityes.BarbeirosActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:background="@drawable/ic_loggin"
+                android:padding="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/iv_account"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+
+                            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_nameuser"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Olá Usuário!"
+                            android:textColor="#fff"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+
+                            android:id="@+id/tv_email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="usuario@email.com"
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/colorPrimary"
+                android:padding="20dp"
+                app:cardCornerRadius="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:background="@color/colorPrimary"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:background="#fff"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:gravity="center"
+                            android:textSize="25sp"
+                            android:text="Última Visita"
+                            android:textColor="@color/colorAccent"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:gravity="center"
+                            android:textSize="12sp"
+                            android:text="Última Visita"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:background="@color/colorPrimaryDark"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:id="@+id/tv_dia"
+                            android:gravity="center"
+                            android:textSize="18sp"
+                            android:text="Dia"
+                            android:textColor="#fff"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:id="@+id/tv_mes"
+                            android:gravity="center"
+                            android:textSize="25sp"
+                            android:text="Mês"
+                            android:textColor="#fff"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <View
+                android:layout_gravity="right"
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="200dp"
+                android:layout_height="2dp"/>
+            <TextView
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Nossos Barbeiros"
+                android:textSize="22sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="200dp"
+                android:layout_height="2dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:background="@color/colorPrimary"
+                android:id="@+id/recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                tools:ignore="MissingConstraints" />
+            <View
+                android:layout_gravity="right"
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="200dp"
+                android:layout_height="2dp"/>
+            <TextView
+                android:textColor="#fff"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Minha Agenda"
+                android:textSize="22sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_margin="1dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="200dp"
+                android:layout_height="2dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:background="@color/colorPrimary"
+                android:id="@+id/recyclerViewAgenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

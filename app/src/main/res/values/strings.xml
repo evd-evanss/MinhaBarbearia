@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MinhaBarbearia</string>
+    <string name="loading">Loading…</string>
+    <string name="log_error_occurred">"Ocorreu um erro: "</string>
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Fechar</string>
+
+    <string name="web_client_id">Incluir seu web client id aqui</string>
+</resources>

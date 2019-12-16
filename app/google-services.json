@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "963088004006",
+    "firebase_url": "https://barbeariapp.firebaseio.com",
+    "project_id": "barbeariapp",
+    "storage_bucket": "barbeariapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963088004006:android:74bc5ed6ccef9fe8",
+        "android_client_info": {
+          "package_name": "afterapps.com.firebaseim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963088004006-bar8f7l4vvhjcu13vnm210ek3r5im0ie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "afterapps.com.firebaseim",
+            "certificate_hash": "f6aea2a81d95b2be98e588cb7cf5423c30408076"
+          }
+        },
+        {
+          "client_id": "963088004006-30unb7nftiiio280c26s2r0r2jrmq9mq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfQxuqA45rYlraHVUi_fjXRRIYU5J6-_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963088004006-30unb7nftiiio280c26s2r0r2jrmq9mq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963088004006:android:b726972220aad606",
+        "android_client_info": {
+          "package_name": "com.sayhitoiot.minhabarbearia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963088004006-41cc8ubvlrpmqk3174jk05a1cnaeh2v8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sayhitoiot.minhabarbearia",
+            "certificate_hash": "f95bad82260c094672b3797509e1d817295db52f"
+          }
+        },
+        {
+          "client_id": "963088004006-30unb7nftiiio280c26s2r0r2jrmq9mq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfQxuqA45rYlraHVUi_fjXRRIYU5J6-_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963088004006-30unb7nftiiio280c26s2r0r2jrmq9mq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963088004006:android:7bd4f210a4c0cd9f",
+        "android_client_info": {
+          "package_name": "com.udl.bss.barbershopschedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963088004006-0cvns83brbgcpia06mrora5jp3f0co93.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.udl.bss.barbershopschedule",
+            "certificate_hash": "f95bad82260c094672b3797509e1d817295db52f"
+          }
+        },
+        {
+          "client_id": "963088004006-30unb7nftiiio280c26s2r0r2jrmq9mq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfQxuqA45rYlraHVUi_fjXRRIYU5J6-_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963088004006-30unb7nftiiio280c26s2r0r2jrmq9mq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
